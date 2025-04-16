@@ -12,10 +12,10 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import time
 
-from utils.stock_data import get_stock_data, get_company_info, get_financial_metrics
-from utils.gemini_analysis import generate_stock_analysis
-from utils.visualization import plot_stock_chart
-from utils.news_collector import get_news_for_asset, summarize_news_sentiment
+from stockanalysis.utils.stock_data import get_stock_data, get_company_info, get_financial_metrics
+from stockanalysis.utils.gemini_analysis import generate_stock_analysis
+from stockanalysis.utils.visualization import plot_stock_chart
+from stockanalysis.utils.news_collector import get_news_for_asset, summarize_news_sentiment
 
 # Main title
 st.title("📊 Financial Asset Analysis with Gemini AI")
@@ -27,7 +27,7 @@ Enter a symbol to get buy/sell recommendations and detailed information:
 
 **Stocks**:
 - US Stocks: Enter the ticker symbol (e.g., AAPL, MSFT, GOOGL)
-- Indonesian Stocks: Use .JK: prefix (e.g., BBCA.JK, ADRO.JK)
+- Indonesian Stocks: Use IDX: prefix (e.g., IDX:BBCA, IDX:ADRO)
 
 **Cryptocurrencies**:
 - Enter the crypto symbol with USD suffix (e.g., BTC-USD, ETH-USD, SOL-USD)
