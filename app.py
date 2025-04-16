@@ -27,7 +27,7 @@ Enter a symbol to get buy/sell recommendations and detailed information:
 
 **Stocks**:
 - US Stocks: Enter the ticker symbol (e.g., AAPL, MSFT, GOOGL)
-- Indonesian Stocks: Use IDX: prefix (e.g., IDX:BBCA, IDX:ADRO)
+- Indonesian Stocks: Use .JK: prefix (e.g., BBCA.JK, ADRO.JK)
 
 **Cryptocurrencies**:
 - Enter the crypto symbol with USD suffix (e.g., BTC-USD, ETH-USD, SOL-USD)
