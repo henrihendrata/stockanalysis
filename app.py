@@ -12,10 +12,10 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import time
 
-from stockanalysis.utils.stock_data import get_stock_data, get_company_info, get_financial_metrics
-from stockanalysis.utils.gemini_analysis import generate_stock_analysis
-from stockanalysis.utils.visualization import plot_stock_chart
-from stockanalysis.utils.news_collector import get_news_for_asset, summarize_news_sentiment
+from mount.src.stockanalysis.utils.stock_data import get_stock_data, get_company_info, get_financial_metrics
+from mount.src.stockanalysis.utils.gemini_analysis import generate_stock_analysis
+from mount.src.stockanalysis.utils.visualization import plot_stock_chart
+from mount.src.stockanalysis.utils.news_collector import get_news_for_asset, summarize_news_sentiment
 
 # Main title
 st.title("📊 Financial Asset Analysis with Gemini AI")
